@@ -1,18 +1,24 @@
-import React from 'react'
-import Avatar from "../img/foto.jpg"
+import Pokedex from "../img/pokedex.jpeg"
+import Eletronic from "../img/Eletronic_Image.png"
 import "../styles/components/projectscontainer.sass"
 import Projects from "../img/ProjectsImg.jpg"
 
+
 const ProjectsContainer = () => {
-    const qtdProjects = 3;
+    
+    const projects = [
+        {project:Pokedex,link:'https://pokedex-react-git-develop-felipebarreto-osfdigital.vercel.app/'},
+        {project:Eletronic,link:"https://eletronic.vercel.app/Home"},
+        {project:Projects,link:"#"}
+    ];
   return (
     <section className="projects-container">
         <h2>Projetos</h2>
 
     <div>
-        {Array.from({length:qtdProjects}).map((_,index) => 
-        <a key={index} href='#'>
-            <img src={Projects} className='projects-img' alt='Projects' />
+        {Array.from({length:projects.length}).map((_,index) => 
+        <a key={index} href={projects[index].link}>
+            <img src={projects[index].project} className='projects-img' alt='Projects' />
         </a>)}
     </div>
         <a href="#" className='btn'>

@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/components/maincontent.sass"
 import AboutContainer from './AboutContainer'
 import TechnologiesContainer from './TechnologiesContainer'
