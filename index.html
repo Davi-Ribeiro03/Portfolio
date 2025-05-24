@@ -1,91 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davi Ribeiro</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <a href="#home" class="logo">
-            Davi <span>Ribeiro</span>
-        </a>
+      <a href="#home" class="logo"> Davi <span>Ribeiro</span> </a>
 
-        <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h1>Hi, It's <span>Davi</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, minima officia, id consectetur aliquid deleniti perspiciatis reiciendis cumque, beatae non quis ad? Magnam eveniet non, tempore dolor ullam amet atque.</p>
+      <div class="home-content">
+        <h1>Hi, It's <span>Davi</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          Sou um apaixonado estudante de Ciência da Computação, dedicado a
+          explorar os mistérios da tecnologia. Especializando-se em front-end,
+          procuro transformar conceitos em experiências digitais cativantes.
+          Minha jornada é marcada por uma busca incessante por conhecimento e
+          uma habilidade inata de transformar ideias em realidade.
+        </p>
 
-            <div class="social-icons">
-                <a href="#">
-                    <i class="bx bxl-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="bx bxl-github"></i>
-                </a>
-                <a href="#">
-                    <i class="bx bxl-instagram-alt"></i>
-                </a>
-            </div>
-
-            <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
-                <a href="#contact" class="btn">Contact</a>
-            </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/davi-ribeiro-894010232/"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/Davi-Ribeiro03/" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="./Curriculo_Davi_Ribeiro.pdf"
+            download
+            id="curriculo"
+            target="_blank"
+          >
+            Currículo
+          </a>
         </div>
 
-        <div class="home-img">
-            <img src="./assets/perfil.png" alt="">
+        <div class="btn-group">
+          <!-- <a href="#" class="btn">Hire</a> -->
+          <a href="#contact" class="btn">Contact</a>
         </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./assets/perfil.png" alt="" />
+      </div>
     </section>
 
     <section class="education" id="education">
-        <h2 class="heading">Education</h2>
+      <h2 class="heading">Education and Experience</h2>
 
-        <div class="timeline-items">
-
-            <div class="timeline-item">
-                <div class="timeline-dot">
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-content">
-                        <h3>Hi School</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum minima ducimus est tenetur laudantium accusantium adipisci repudiandae ipsam! Laboriosam laudantium voluptates velit eaque in earum molestias id, dolores quae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot">
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-content">
-                        <h3>University</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum minima ducimus est tenetur laudantium accusantium adipisci repudiandae ipsam! Laboriosam laudantium voluptates velit eaque in earum molestias id, dolores quae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot">
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-content">
-                        <h3>Intern</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum minima ducimus est tenetur laudantium accusantium adipisci repudiandae ipsam! Laboriosam laudantium voluptates velit eaque in earum molestias id, dolores quae.</p>
-                    </div>
-                </div>
-            </div>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date animate-left">2021</div>
+          <div class="timeline-content animate-left">
+            <h3>Darcy Ribeiro</h3>
+            <p>Ensino médio profissionalizante</p>
+          </div>
         </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date animate-right" id="timeline-date-2">
+            2022
+          </div>
+          <div class="timeline-content animate-right">
+            <h3>Instituto Federal de Ciências e Tecnologia do Ceará</h3>
+            <p>Bacharelado em Ciências da computação - em andamento</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date animate-left">2023</div>
+          <div class="timeline-content animate-left">
+            <h3>Estágiário de Desenvolvimento Frontend</h3>
+            <p>
+              Atualmente faço estágio na empresa: OSF digital, onde tive
+              experiências com React, React Native, RayJs, etc.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section class="services" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="services-container">
+        <div class="service-box animate-left">
+          <div class="service-info">
+            <div class="backgroud-img">
+              <img src="./assets/app_mobile.png" alt="" />
+            </div>
+            <h4>Controle de gastos</h4>
+            <p>
+              Esse aplicativo foi criado para controlar seus gastos, para que
+              você não chegue no final do mês sem saber para onde seu dinheiro
+              foi 🚀
+            </p>
+            <div class="buttons">
+              <a href="" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-box animate-right">
+          <div class="service-info">
+            <div class="backgroud-img">
+              <img src="./assets/eletronic.png" alt="" />
+            </div>
+            <h4>Eletronic</h4>
+            <p>
+              Esse projeto foi desenvolvido para estudar alguns conceitos como
+              Redux, Context e Rotas privadas. Para acessar como usuário normal,
+              user: Davi e senha 123. Para acessar como admin, user:Lucas,
+              senha:5678
+            </p>
+            <div class="buttons">
+              <a
+                href="https://github.com/Davi-Ribeiro03/Eletronic.git"
+                target="_blank"
+                >Github</a
+              >
+              <a href="https://eletronic.vercel.app/" target="_blank">Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+        <div class="input-group">
+          <div class="input-box">
+            <input
+              type="text"
+              placeholder="Full Name"
+              id="name"
+              required
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div class="input-group2">
+          <textarea
+            id="message"
+            cols="10"
+            rows="6"
+            placeholder="Your Message"
+          ></textarea>
+          <input
+            type="submit"
+            value="Send Message"
+            class="sendButton"
+            onclick="sendMessage(event)"
+          />
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/davi-ribeiro-894010232/"
+          target="_blank"
+        >
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/Davi-Ribeiro03/" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+      </div>
+
+      <!-- <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul> -->
+      <p class="copyright">@ Davi Ribeiro | All rights reserved</p>
+    </footer>
     <script src="script.js"></script>
-</body>
+    <script type="module" src="animation.js"></script>
+  </body>
 </html>
