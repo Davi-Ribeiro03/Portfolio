@@ -688,6 +688,7 @@ span {
   .home {
     flex-direction: column-reverse;
     margin: 5rem 4rem;
+    width: 100%;
   }
   .home-content h3 {
     font-size: 2.6rem;
@@ -702,10 +703,18 @@ span {
   .home-img img {
     width: 56vw;
   }
+  .education {
+    width: 100%;
+  }
   .services h2 {
     margin-bottom: 3rem;
   }
   .services-container {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
   }
 }
