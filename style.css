@@ -436,6 +436,7 @@ span {
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
+
   /* transition: 0.4s ease-in-out; */
 }
 
@@ -660,6 +661,10 @@ span {
   }
 }
 @media (max-width: 895px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   #menu-icon {
     display: block;
   }
@@ -698,7 +703,7 @@ span {
   }
   .home-content p {
     max-width: 600px;
-    margin: 0 auto;
+    width: 90%;
   }
   .home-img img {
     width: 56vw;
@@ -710,8 +715,15 @@ span {
     margin-bottom: 3rem;
   }
   .services-container {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
     width: 100%;
+  }
+
+  .service-box {
+    width: 90%;
   }
 
   .contact {
