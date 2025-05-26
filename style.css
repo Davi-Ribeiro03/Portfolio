@@ -693,7 +693,9 @@ span {
   }
   .home {
     flex-direction: column-reverse;
-    margin: 30px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
   .home-content h3 {
@@ -728,10 +730,5 @@ span {
 
   .service-box {
     width: 90%;
-  }
-
-  .contact {
-    width: 90%;
-    justify-content: center;
   }
 }
